@@ -31,6 +31,7 @@ public class Hooks {
 
     @After
     public void tearDown(Scenario scenario){
+        log.info("Scenaria Failed: " + scenario.getName());
         File file;
         if (scenario.isFailed()) {
             String screenshotPath = System.getProperty("user.dir") + "\\target\\screenshots\\" + scenario.getName() + "\\";

@@ -1,6 +1,5 @@
 package com.javaBaseProject.web.qa.steps.Search;
 
-import com.javaBaseProject.web.qa.pages.BasePage;
 import com.javaBaseProject.web.qa.pages.Search.SearchPage;
 import com.javaBaseProject.web.qa.steps.Hooks;
 import io.cucumber.java.en.When;

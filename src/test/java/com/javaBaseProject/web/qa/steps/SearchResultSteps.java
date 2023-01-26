@@ -1,6 +1,5 @@
 package com.javaBaseProject.web.qa.steps;
 
-import com.javaBaseProject.web.qa.pages.Search.SearchPage;
 import com.javaBaseProject.web.qa.pages.Search.SearchResultPage;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;

@@ -1,7 +1,6 @@
 package com.javaBaseProject.web.qa.pages.Search;
 
 import com.javaBaseProject.web.qa.pages.BasePage;
-import com.javaBaseProject.web.qa.util.ConfigReader;
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
