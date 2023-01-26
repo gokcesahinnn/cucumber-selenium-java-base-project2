@@ -1,7 +1,10 @@
 package com.javaBaseProject.web.qa.pages;
 
 import com.javaBaseProject.web.qa.util.ConfigReader;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
@@ -31,6 +34,5 @@ public class BasePage {
         String url = System.getProperty("base.url") != null ? System.getProperty("base.url") : ConfigReader.get("url");
         webDriver.navigate().to(url);
     }
-
 
 }
