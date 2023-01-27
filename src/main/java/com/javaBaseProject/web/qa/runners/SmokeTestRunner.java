@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
         glue = "com.javaBaseProject.web.qa.steps",
         plugin = "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/ExtentReportRegression.html",
         tags = {"@smoke"}
-
 )
 
 public class SmokeTestRunner extends AbstractTestNGCucumberTests {
