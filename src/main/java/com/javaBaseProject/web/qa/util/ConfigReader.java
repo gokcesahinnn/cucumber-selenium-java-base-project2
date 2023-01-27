@@ -9,11 +9,10 @@ public class ConfigReader {
     static {
 
         try {
-            String path = "configuration.properties";
+            String path = "src/main/java/com/javaBaseProject/web/qa/config/configuration.properties";
             FileInputStream input = new FileInputStream(path);
             properties = new Properties();
             properties.load(input);
-
             input.close();
         } catch (Exception e) {
             e.printStackTrace();
