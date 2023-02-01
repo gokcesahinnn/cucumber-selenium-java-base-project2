@@ -1,13 +1,11 @@
 package com.javaBaseProject.web.qa.pages.Search;
 
 import com.javaBaseProject.web.qa.pages.BasePage;
-import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-@Getter
 public class SearchPage extends BasePage {
 
     public SearchPage(WebDriver webDriver) {
